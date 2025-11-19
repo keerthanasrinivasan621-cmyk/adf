@@ -1,0 +1,21 @@
+{
+	"name": "LS_TABLE",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-QUUU9NNJ\\SQLEXPRESS",
+			"database": "AdventureWorks2022",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "PRIYA",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyMjA4ZWIzOS0zYjQwLTQwODMtYTk4Yy1jY2IwMTQ3YjFiNDkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfhostedintegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
